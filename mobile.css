@@ -1,0 +1,7 @@
+/* Mobile/PWA enhancements */
+html{background:#08111f;overscroll-behavior-y:none}
+body{padding-bottom:env(safe-area-inset-bottom);-webkit-tap-highlight-color:transparent}
+button,.game-card,.answer,.tile{touch-action:manipulation;-webkit-user-select:none;user-select:none}
+.topbar{padding-top:env(safe-area-inset-top);height:calc(76px + env(safe-area-inset-top))}
+@media(max-width:600px){.topbar{height:calc(66px + env(safe-area-inset-top))}.app-shell{padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right));padding-bottom:calc(24px + env(safe-area-inset-bottom))}.game-card{min-height:158px}.primary,.secondary,.level-btn{min-height:44px}.touch-controls button{min-width:56px;min-height:46px}.word-input input{font-size:16px}.mic-btn{min-width:50px}.footer{padding-bottom:env(safe-area-inset-bottom)}}
+.install-banner{display:flex;align-items:center;gap:10px;background:linear-gradient(100deg,#152c48,#102037);border:1px solid #2a4669;border-radius:16px;padding:10px 11px;margin:0 0 20px;color:#c4d5e8;font-size:12px}.install-banner strong{color:#fff;display:block;font-size:13px}.install-banner button{margin-left:auto;white-space:nowrap;padding:9px 11px;background:#d6ff55;border:0;border-radius:10px;color:#08111f;font-weight:900;font-size:11px}.install-banner .close-install{background:transparent;color:#8da3bb;padding:4px}
